@@ -36,7 +36,8 @@ withdrawButton.addEventListener("click", function(){
 function getInputNumber(id){
     const amount = document.getElementById(id).value;
     const amountNumber = parseFloat(amount);
-    return amountNumber;
+    const absAmount = Math.abs(amountNumber);
+    return absAmount;
 }
 
 function updateText(id, depositNumber){
