@@ -2,3 +2,52 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+.login-intro{
+    margin-top: 100px;
+}
+
+.login-intro .text-highlight {
+    color: tomato;
+    font-size: 50px;
+}
+
+.login-form {
+    margin-top: 50px;
+    box-shadow: 5px 5px 15px gray;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#transction-area {
+    display: none;
+    margin-top: 100px;
+}
+.status {
+    color: white;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+.deposit {
+    background-color: slateblue;
+}
+.withdraw {
+    background-color: tomato;
+}
+.blance {
+    background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+

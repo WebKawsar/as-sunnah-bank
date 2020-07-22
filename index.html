@@ -9,8 +9,71 @@
 
 </head>
 <body>
-    <header class="header-area">
-        <h1 class="text-center text-capitalize">welcome to as-sunnah bank</h1>
-    </header>
+    <section id="login-area">
+        <div class="container">
+            <div class="login-intro">
+                <h1 class="text-center text-capitalize">welcome to <span class="text-highlight">as-sunnah bank</span></h1>
+            </div>
+            <div class="login-form">
+                <h4>Login</h4>
+                <input class="form-control" type="email" placeholder="Your email">
+                <br>
+                <input class="form-control" type="password" placeholder="Your password">
+                <br>
+                <button id="submit-button" class="btn btn-success" type="submit">Enter</button>
+            </div>
+        </div>
+    </section>
+
+    <main id="transction-area">
+        <div class="container">
+            <!-- <div class="row transction-intro">
+                <h1>Transction</h1>
+            </div> -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="deposit status">
+                        <h5>Deposit</h5>
+                        <h2>$<span id="currentDeposit">00</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="withdraw status">
+                        <h5>Withdraw</h5>
+                        <h2>$<span id="currentWithdraw">00</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blance status">
+                        <h5>Blance</h5>
+                        <h2>$<span id="currentBalance">1240</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="login-form">
+                        <h4>Deposit</h4>
+                        <input id="depositAmount" type="text" class="form-control" placeholder="$ amount to want deposit" name="" id="">
+                        <br>
+                        <button id="depositButton" class="btn btn-success">Deposit</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="login-form">
+                        <h4>Withdraw</h4>
+                        <input id="withdrawAmount" type="text" class="form-control" placeholder="$ amount to want withdraw" name="" id="">
+                        <br>
+                        <button id="withdrawButton" class="btn btn-success">Withdraw</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="script.js"></script>
 </body>
 </html>
